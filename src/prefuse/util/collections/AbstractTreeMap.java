@@ -512,7 +512,7 @@ public abstract class AbstractTreeMap implements IntSortedMap {
         }
 
         public boolean hasNext() {
-            return next != end;
+            return ! next.equals(end);
         }
 
         final Entry nextEntry() {
