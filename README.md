@@ -78,6 +78,7 @@ MORE
 Additional information and preliminary documentation, a gallery of featured
 prefuse applications, and more, were available at the prefuse website, which is no longer available since 2018.
 A snapshot can be found at <https://web.archive.org/web/20181215222711/http://prefuse.org/>.
+The current site is hosted at UC Berkeley. <http://kneecap.ist.berkeley.edu/>
 
 SourceForge hosts a help forum: <https://sourceforge.net/p/prefuse/discussion/343013/>
 
