@@ -18,8 +18,11 @@ public class MySQLConnectionTest extends TestCase {
         = Logger.getLogger(MySQLConnectionTest.class.getName());
     
     private Table m_table;
-    
-    public void testLoadFromMySQLDatabase() {
+ 
+    public void testDummy() {
+    }
+
+    private void loadFromMySQLDatabase() {
         String host     = "localhost";
         String database = "friendster";
         String user     = "anonymous";
@@ -70,7 +73,7 @@ public class MySQLConnectionTest extends TestCase {
     
     public static void main(String[] args) {
         MySQLConnectionTest test = new MySQLConnectionTest();
-        test.testLoadFromMySQLDatabase();
+        test.loadFromMySQLDatabase();
         
         JFrame f = JPrefuseTable.showTableWindow(test.m_table);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

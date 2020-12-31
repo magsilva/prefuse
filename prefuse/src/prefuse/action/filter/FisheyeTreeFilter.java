@@ -156,10 +156,11 @@ public class FisheyeTreeFilter extends GroupAction {
             else {
                 EdgeItem e =(EdgeItem) ((NodeItem)item).getParentEdge();
             	if (e != null) {
-            		e.setDOI(item.getDOI());
+                    e.setDOI(item.getDOI());
                     PrefuseLib.updateVisible(e, true);
             	}
             }
+	}
     }
 
     /**
